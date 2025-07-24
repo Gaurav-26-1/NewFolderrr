@@ -7,7 +7,7 @@ import About from "./_components/about";
 import Profile from "./_components/profile";
 import Work from "./_components/work";
 import Skill from"./_components/skill/";
-import Strengths from"./_components/strengths/page";
+// import Strengths from"./_components/strengths/page";
 export default function HomePage() {
   
   return (
@@ -67,7 +67,7 @@ export default function HomePage() {
 
         <Skill />
 
-        <Strengths />
+        {/* <Strengths /> */}
         <footer className={styles.footer}>
         <nav>
           <ul className={styles.footerNav}>
