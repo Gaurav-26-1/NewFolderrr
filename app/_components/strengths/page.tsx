@@ -1,5 +1,5 @@
 'use client'
-import styles from "./strengths.module.css";
+import styles from "./strengthsNew.module.css";
 import Image from "next/image";
 
 export default function Strengths() {
