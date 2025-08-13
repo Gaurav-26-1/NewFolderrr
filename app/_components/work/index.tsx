@@ -21,11 +21,28 @@ export default function WorkPage() {
         <li className={styles.card}>
           <h3>作品名 2</h3>
           <p></p>
-          <Link href="" className={styles.link}>
+          <Link href="https://github.com/Gaurav-26-1/Sakura" className={styles.link}>
             GitHub リポジトリはこちら
           </Link>
           
         </li>
+        <li className={styles.card}>
+          <h3>作品名 3</h3>
+          <p></p>
+          <Link href="https://sakura-beige-ten.vercel.app/" className={styles.link}>
+            ホテル　メニュー 
+          </Link>
+          
+        </li>
+        <li className={styles.card}>
+          <h3>作品名 3</h3>
+          <p></p>
+          <Link href="https://quiz-masters-game-brs4.vercel.app/" className={styles.link}>
+            クイズアプリこちら 
+          </Link>
+          
+        </li>
+        
         {/* 必要に応じてリストを追加 */}
         
       </div>
